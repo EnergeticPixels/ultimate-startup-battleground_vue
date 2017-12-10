@@ -51,7 +51,7 @@
 			}
 		},
 		mounted() {
-			this getPrivateStartupBattles();
+			this.getPrivateStartupBattles();
 		}
 	};
 	</script>

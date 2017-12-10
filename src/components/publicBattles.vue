@@ -26,7 +26,7 @@
 </template>
 
 <script>
-	import AppNav from ./AppNav';
+	import AppNav from './AppNav';
 	import { isLoggedIn } from '../../utils/auth';
 	import { getPublicStartupBattles } from '../../utils/battles-api';
 
