@@ -9,12 +9,20 @@ This is a tutorial follow-along for me as a dive into Vue.js app creation.  Exte
 ## Accolades
 https://auth0.com/blog/Vuejs2-authentication-tutorial
 
-## To Run
-This project requires an external API for login purposes and to serve the quotes back to the front-end.
-1. CD into Server folder
-2. npm install
-3. node server
-4. open another command line window
-5. CD into this base folder project
-6. npm install
-7. npm run dev
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
