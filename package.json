@@ -1,8 +1,16 @@
 {
   "name": "startupbattle",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue.js (version 2.x) project",
   "author": "Anthony Jackman <energeticpixels@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnergeticPixels/ultimate-startup-battleground_vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnergeticPixels/ultimate-startup-battleground_vue/issues"
+  },
+  "homepage": "https://github.com/EnergeticPixels/ultimate-startup-battleground_vue#readme",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
